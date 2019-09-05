@@ -14,7 +14,7 @@
 </form>
 <div class="row">
     {% for restaurant in restaurants %}
-    <div class="col-md-4">
+     <div class="col-md-4">
         <div class="card my-card">
           {% if restaurant.logo %}
             <img class="card-img-top" src="{{restaurant.logo.url}}" alt="Hey Noob, look at me...">
@@ -30,7 +30,7 @@
           </ul>
         </div>
     </div>
-    {% endfor %}
+   {% endfor %}
 </div>
 {% endblock content %}
 
